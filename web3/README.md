@@ -21,7 +21,10 @@ npx hardhat run scripts/deploy.ts
 //* On C-Chain we're relaying on the Avax token to confirm transactions -> on the subnet we can create our own token
 //* You are in complete control over the network and it's inner workings
 
-
+npx hardhat compile
+npx hardhat run scripts/deploy.ts --network fuji  
+Deploying a smart contract...
+{ AVAXGods: '0xE24b1Dd0958057A032e4C93085203bd4b3f838a8' }
 
 install dependes 
 install web browser 
