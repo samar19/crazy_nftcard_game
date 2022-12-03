@@ -5,7 +5,8 @@ import { PageHOC } from '../components';
 const Home = () => {
   return (
     <div>
-      
+            <h1 className='text-white text-xl'>hello from home</h1>
+
     </div>
   )
 };
