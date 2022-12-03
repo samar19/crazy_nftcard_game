@@ -22,11 +22,21 @@ npx hardhat run scripts/deploy.ts
 //* You are in complete control over the network and it's inner workings
 
 npx hardhat compile
+
 npx hardhat run scripts/deploy.ts --network fuji  
 Deploying a smart contract...
-{ AVAXGods: '0xE24b1Dd0958057A032e4C93085203bd4b3f838a8' }
-
+{ CrazyCard: '0x44153204e58Ea36C5f20b4EF41009CA94C400def' }
 install dependes 
 install web browser 
 install core extention 
 
+
+cd client 
+yarn install 
+or npm install
+ 
+npm run dev
+Local:   http://localhost:5173/
+➜  Network: use --host to expose
+
+  
