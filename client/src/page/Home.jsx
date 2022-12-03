@@ -1,13 +1,22 @@
 import React from 'react';
+import { PageHOC } from '../components';
+
 
 const Home = () => {
   return (
     <div>
-      <h1 className="text-5xl p-3">Crazy Card </h1>
-      <h2 className="text-3xl p-3">Web3 NFT Card Game</h2>
-      <p className="text-xl p-3">Made with by Ms-Hack</p>
+      
     </div>
   )
 };
 
-export default Home;
+export default PageHOC(
+  Home,
+  <>
+  Welcome To Crazy Card <br /> a Web3 NFT Meta Card Game
+</>,
+<>
+  Connect your wallet to start playing <br /> the ultimate Web3 Battle Card
+  Game
+</>,
+);
