@@ -38,7 +38,7 @@ import widowmaker from './Widowmaker.png';
 import xho from './Xho.png';
 
 // logo
-import logo from './ln.png';
+import logo from './logo.png';
 
 // icon
 import attack from './attack.png';

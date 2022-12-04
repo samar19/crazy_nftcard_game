@@ -3,10 +3,16 @@ import '@nomiclabs/hardhat-ethers';
 
 dotenv.config();
 
+//* Notes for deploying the smart contract on your own subnet
+//* More info on subnets: https://docs.avax.network/subnets
+//* Why deploy on a subnet: https://docs.avax.network/subnets/when-to-use-subnet-vs-c-chain
+//* How to deploy on a subnet: https://docs.avax.network/subnets/create-a-local-subnet
+//* Transactions on the C-Chain might take 2-10 seconds -> the ones on the subnet will be much faster
+//* On C-Chain we're relaying on the Avax token to confirm transactions -> on the subnet we can create our own token
+//* You are in complete control over the network and it's inner workings
 
 export default {
   solidity: {
-    defaultNetwork: "mumbai",
     version: '0.8.16',
     settings: {
       viaIR: true,
@@ -22,19 +28,6 @@ export default {
       gasPrice: 225000000000,
       chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],
-    },
-    mumbai: {
-      url: 'https://rpc-mumbai.maticvigil.com',
-      accounts: [
-        '57ee5f9240f8056be866e500706bf284b8bad59bb85beeda15364b920eec5ef1',
-      ],
-    },
-    optimistic: {
-      url:
-        'https://opt-kovan.g.alchemy.com/v2/cfv68qUqLuZipE8sXJYuG-KQ1eKiuPsl',
-      accounts: [
-        'a94b13a69756cb84833978359e6eae91cde82135a7501444f3989b4b6b4cea1d',
-      ],
     },
     // subnet: {
     //   url: process.env.NODE_URL,
