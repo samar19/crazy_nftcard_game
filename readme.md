@@ -23,12 +23,11 @@ Avalanche has the tooling and composability you need to speed from concept to la
 With a stunning design, interactive gameplay, smart wallet pairing, live interaction with smart contracts, and, most importantly, the ability to battle other players in real-time
 
 # game rules 
-card with the same defense and attracj point will cancel each other out attack point from the attacking card will deducet the opposing players health point 
-if player1 defense p2s attack is equal to p2s defense 
-if a player2 defense they refill 3 mana 
-if a player attacks they spend 3 hours 
+- card with the same defense and attracj point will cancel each other out attack point from the attacking card will deducet the opposing players health point 
+- if player1 defense p2s attack is equal to p2s defense 
+- if a player2 defense they refill 3 mana 
+- if a player attacks they spend 3 hours 
 
-![Gameplay](https://github.com/samar19/pic-/blob/master/Screen%20Shot%202022-12-04%20at%209.42.29%20PM.png)
 ![Gameplay](https://github.com/samar19/pic-/blob/master/Screen%20Shot%202022-12-04%20at%209.42.52%20PM.png)
 ![Gameplay](https://github.com/samar19/pic-/blob/master/Screen%20Shot%202022-12-04%20at%209.48.03%20PM.png)
 
