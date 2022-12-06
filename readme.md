@@ -42,7 +42,7 @@ With a stunning design, interactive gameplay, smart wallet pairing, live interac
 7. Copy the `hardhat.config.ts` file from the GitHub gist down in the description
 8. Copy the `deploy.ts` script from the GitHub gist down in the description
 9. Copy the `CrazyCard.sol` smart contract code from the GitHub gist down in the description
-10. Compile the contract by running the `npx hardhat compile` command
+10. Compile the contract by running the `npx hardhat compile` command `npm install --save-dev ts-node`
 11. Deploy the smart contract on the Fuji test network by running the `npx hardhat run scripts/deploy.ts --network fuji` command   `Deploying a smart contract...{ CrazyCard: '0xBc139f451465fcF1B55689BfA652D49F05c13018' }`
   Move the `/artifacts/contracts/crazyCard.json` file to the `/contract` folder on the frontend
   Copy the address of the deployed contract from the terminal and paste it into the `/contract/index.js` file of the frontend application
